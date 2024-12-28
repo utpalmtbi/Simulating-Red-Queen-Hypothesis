@@ -4,11 +4,11 @@ library(dplyr)
 library(tidyr)
 library(FSA)
 
-# Source scripts
-source("path/to/Simulating-Red-Queen-Hypothesis/ode_model.R")
-source("path/to/Simulating-Red-Queen-Hypothesis/ode_solve.R")
-source("path/to/Simulating-Red-Queen-Hypothesis/data_analysis.R")
-source("path/to/Simulating-Red-Queen-Hypothesis/simulation.R")
+# Functions
+source("path/to/Simulating-Red-Queen-Hypothesis/define_model")
+source("path/to/Simulating-Red-Queen-Hypothesis/solve_ode")
+source("path/to/Simulating-Red-Queen-Hypothesis/analyze_results")
+source("path/to/Simulating-Red-Queen-Hypothesis/run_simulation")
 
 # Parameters
 default_params <- list(

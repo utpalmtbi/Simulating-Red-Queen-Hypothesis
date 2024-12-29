@@ -1,7 +1,6 @@
 # Red Queen Hypothesis: Bacteria and Phage Co-evolution
 
-This repository contains R codes for simulating the co-evolution dynamics of bacteria and phages based on the Red Queen Hypothesis. The system uses ordinary differential equations (ODEs) to model the interactions between susceptible bacteria, resistant bacteria, and phages, incorporating parameters such as growth rates, mutation rates, and infection rates. This code is part of this blog post: https://sites.google.com/view/ublab-org/blog/testing-the-red-queen-hypothesis-in-the-context-of-bacterial-and-phage?authuser=0
-
+This repository contains R codes for simulating the co-evolution dynamics of bacteria and phages based on the Red Queen Hypothesis. The system uses ordinary differential equations (ODEs) to model the interactions between susceptible bacteria, resistant bacteria, and phages, incorporating parameters such as growth rates, mutation rates, and infection rates. This code is part of this blog post: https://www.bakshilab.org/blog/simulating-the-red-queen-hypothesis
 ## Features
 
 - **Differential Equation Modeling**: Captures the population dynamics of bacteria and phages over time.
